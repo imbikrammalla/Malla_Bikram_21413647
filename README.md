@@ -1,16 +1,17 @@
 # PROJECT STRUCTURE
-├── code
-│   ├── main_modular.py
-│   ├── main_test_code.py
-│   ├── secondary_modular.py
-│   └── second_test.py
-├── docs
-│   └── report.md
-├── images
-│   ├── first_test.png
-│   └── second_test.png
-├── README.md
-└── requirenment.txt
+- ├── code
+- │   ├── main_modular.py
+- │   ├── main_test_code.py
+- │   ├── secondary_modular.py
+- │   └── second_test.py
+- ├── docs
+- │   └── report.md
+- ├── images
+- │   ├── first_test.png
+- │   └── second_test.png
+- ├── README.md
+- └── requirements.txt
+
 
 
 # Code Section

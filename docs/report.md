@@ -147,8 +147,8 @@ Description of how to run  test code with correct commands.
 
 -- Screenshots:
 -- Below are the screenshots of the test results and code implementation:
--- ![ Main Modular Results](images/first_test.png)
--- ![Secondary Modular Results](images/second_test.png)
+-- ![ Main Modular Results](../images/first_test.png)
+-- ![Secondary Modular Results](../images/second_test.png)
 
 
 
