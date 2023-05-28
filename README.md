@@ -28,18 +28,30 @@ This report will delve into the details of each section, including the module de
 The original module descriptions created for Part 2 of the assessment are as follows:
 
 1. Module Name: Main Modular
-        - Description: This module handles the retrieval of weather data for a specific location.
-        - Reason for Implementation: It is essential to fetch accurate weather information to provide relevant insights to the users.
-        - Assumptions Made: The weather data API will provide the required information in the expected format.
+- Description: This module handles the retrieval of weather data for a specific location.
+- Reason for Implementation: It is essential to fetch accurate weather information to provide relevant insights to the users.
+- Assumptions Made: The weather data API will provide the required information in the expected format.
 
 2. Module Name: Secondary Modular
-        - Description: This module calculates the average temperature for a given city.
-        - Reason for Implementation: The average temperature is a crucial metric to compare against the current temperature and determine if it is above or below average.
-        - Assumptions Made: The city's temperature data is available and reliable for calculation purposes.
+- Description: This module calculates the average temperature for a given city.
+- Reason for Implementation: The average temperature is a crucial metric to compare against the current temperature and determine if it is above or below average.
+- Assumptions Made: The city's temperature data is available and reliable for calculation purposes.
 
 ### Revised Module Descriptions (After Refactoring)
 
-No changes were made to the module descriptions after refactoring in Part 3.
+After conducting the refactoring process in Part 3, several improvements were made to the original module descriptions. The refactoring aimed to enhance code readability, maintainability, and adherence to software engineering best practices. The following are the revised module descriptions:
+
+1. Module Name: calculate_average_temperature
+- Description: This module calculates the average temperature for a given city based on the minimum and maximum temperatures.
+- Reason for Implementation: This module is essential for providing users with an accurate representation of the average temperature for a specific city.
+- Assumptions Made: The module assumes that the city's temperature data is available in the city_data dictionary with the keys "Min Temp" and "Max Temp".
+
+1.Module Name: compare_temperature
+- Description: This module compares the temperature reading with the average temperature of a city and provides a corresponding message based on the comparison.
+- Reason for Implementation: This module allows users to determine if the temperature reading is above, below, or within 5°C of the average temperature for a specific city.
+- Assumptions Made: The module assumes that the average temperature for the city is calculated using the calculate_average_temperature module and that the temperature reading and time of day inputs are provided by the user.
+
+By refactoring the original code, these modules were optimized for readability and maintainability. The module descriptions were updated to provide clearer explanations of their purposes and assumptions. This refactoring process ensures that the codebase is more robust and easier to understand, facilitating future modifications and improvements.
 
 ## D. Modularity
 
