@@ -2,11 +2,10 @@
 
 ## A. Cover Page/Identity Information
 
-Assessment Name: Introduction to software engineering
+Assessment Name: Introduction to Software Engineering
 Your Name: Bikram Malla
 Curtin Student ID: 21413647
 Practical Class (Date/Time/Venue):
-
 
 ## B. Introduction
 
@@ -16,54 +15,108 @@ Brief overview of the work done in the assessment.
 
 ### Original Module Descriptions
 
-- Provide the original module descriptions created for Part 2 of the assessment.
-- Explain why you chose to implement these modules.
-- Mention any assumptions made, if applicable.
+The original module descriptions created for Part 2 of the assessment are as follows:
+
+1. Module Name: [Module 1 Name]
+   - Description: [Module 1 Description]
+   - Reason for Implementation: [Reason for choosing this module]
+   - Assumptions Made: [Assumptions, if any]
+
+2. Module Name: [Module 2 Name]
+   - Description: [Module 2 Description]
+   - Reason for Implementation: [Reason for choosing this module]
+   - Assumptions Made: [Assumptions, if any]
 
 ### Revised Module Descriptions (After Refactoring)
 
-- If any changes were made to the module descriptions after refactoring in Part 3, describe those changes.
-- Explain the reasons for the modifications, if any.
+No changes were made to the module descriptions after refactoring in Part 3.
 
 ## D. Modularity
 
-- Describe how to run the production code with the correct commands.
-- Discuss how different modularity concepts were applied in the code.
-- Include the review checklist created.
-- Provide the results of conducting the review using the checklist.
-- Explain how any identified issues were addressed.
+To run the production code, use the following commands:
+
+
+Different modularity concepts were applied in the code, such as:
+
+- [Modularity Concept 1]: [Explanation of how this concept was applied]
+- [Modularity Concept 2]: [Explanation of how this concept was applied]
+- [Modularity Concept 3]: [Explanation of how this concept was applied]
+
+Review Checklist:
+
+1. [Checklist Item 1]
+2. [Checklist Item 2]
+3. [Checklist Item 3]
+
+Results of the review using the checklist:
+
+- [Checklist Item 1]: [Result]
+- [Checklist Item 2]: [Result]
+- [Checklist Item 3]: [Result]
+
+Any identified issues were addressed by [Explanation of how the issues were addressed].
 
 ## E. Black-Box Test Cases
 
-- Present all the test cases designed for Part 4 of the assessment.
-- Format the test cases in the tubular format shown in Lecture 6.
-- Explain the rationale behind the chosen test design.
-- Mention any assumptions made during test design.
+The following test cases were designed for Part 4 of the assessment:
+
+| Test Case ID | Description | Input | Expected Output |
+|--------------|-------------|-------|-----------------|
+| 1            | [Description of Test Case 1] | [Input for Test Case 1] | [Expected Output for Test Case 1] |
+| 2            | [Description of Test Case 2] | [Input for Test Case 2] | [Expected Output for Test Case 2] |
+| 3            | [Description of Test Case 3] | [Input for Test Case 3] | [Expected Output for Test Case 3] |
+
+Rationale behind the chosen test design: [Explanation of the rationale behind the test design]
+
+Assumptions made during test design: [Assumptions, if any]
 
 ## F. White-Box Test Cases
 
-- Present all the test cases designed as the answer for Part 5 of the assessment.
-- Format the test cases in the tubular format shown in Lecture 8.
-- Provide a brief explanation of the test design approach.
-- Mention any assumptions made during test design.
+The following test cases were designed for Part 5 of the assessment:
+
+| Test Case ID | Description | Expected Output |
+|--------------|-------------|-----------------|
+| 1            | [Description of Test Case 1] | [Expected Output for Test Case 1] |
+| 2            | [Description of Test Case 2] | [Expected Output for Test Case 2] |
+| 3            | [Description of Test Case 3] | [Expected Output for Test Case 3] |
+
+Brief explanation of the test design approach: [Explanation of the test design approach]
+
+Assumptions made during test design: [Assumptions, if any]
 
 ## G. Test Implementation and Execution
 
-- Describe how to run the test code with the correct commands.
-- Present the results of test execution, including test successes and failures.
-- Discuss the findings from Part 6 of the assessment.
-- Explain if any attempts were made to improve the code and provide new results, if applicable.
+To run the test code, use the following commands:
+
+
+Results of test execution:
+
+- [Test Case ID 1]: [Result]
+- [Test Case ID 2]: [Result]
+- [Test Case ID 3]: [Result]
+
+Findings from Part 6 of the assessment: [Discussion of the findings]
+
+Any attempts made to improve the code and new results, if applicable: [Explanation of any attempts to improve the code and the corresponding results]
 
 ## H. Version Control
 
-- Provide a log of the use of your version control system.
-- Discuss any relevant points or observations regarding version control.
+The version control system was used as follows:
+
+[Provide a log of the use of your version control system]
+
+Relevant points or observations regarding version control: [Discussion of relevant points or observations]
 
 ## I. Ethics
 
-- Answer Part 7 of the assessment regarding ethics.
+Part 7 of the assessment regarding ethics:
+
+[Answer the ethics-related questions]
 
 ## J. Discussion
 
-- Reflect on your own work and discuss areas for improvement.
-- Share any other relevant thoughts or points.
+Reflection on your own work and discussion of areas for improvement:
+
+[Reflect on your work and discuss areas for improvement]
+
+Any other relevant thoughts or points: [Share any other relevant thoughts or points]
