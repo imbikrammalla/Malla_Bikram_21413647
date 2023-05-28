@@ -98,20 +98,19 @@ Rationale behind the chosen test design: The test cases were designed to cover d
 
 Assumptions made during test design: The assumptions include the availability of temperature data for the specified cities and times, and the correct implementation of the average temperature calculation and comparison functions.
 
-
 ## F. White-Box Test Cases
 
 The following test cases were designed for Part 5 of the assessment:
 
 | Test Case ID | Description | Expected Output |
 |--------------|-------------|-----------------|
-| 1            | [Description of Test Case 1] | [Expected Output for Test Case 1] |
-| 2            | [Description of Test Case 2] | [Expected Output for Test Case 2] |
-| 3            | [Description of Test Case 3] | [Expected Output for Test Case 3] |
+| 1            | Verify the calculate_average_temperature function | Expected Average Temperature: 23.4 |
+| 2            | Verify the compare_temperature function for temperature above the average | Expected Result: "The temperature is above the average temperature of Adelaide." |
+| 3            | Verify the compare_temperature function for temperature below the average with a large difference | Expected Result: "The temperature is below the average temperature of Adelaide. The difference is more than 5°C." |
 
-Brief explanation of the test design approach: [Explanation of the test design approach]
+Brief explanation of the test design approach: The test cases were designed to focus on the individual functions in the code. Test Case 1 verifies the correctness of the calculate_average_temperature function by comparing the expected average temperature. Test Case 2 checks the compare_temperature function for temperatures above the average, validating the expected result. Test Case 3 examines the compare_temperature function for temperatures below the average with a large difference, ensuring the expected result is returned.
 
-Assumptions made during test design: [Assumptions, if any]
+Assumptions made during test design: The assumptions include the availability of temperature data for the specified cities and times, and the correct implementation of the calculate_average_temperature and compare_temperature functions.
 
 ## G. Test Implementation and Execution
 
