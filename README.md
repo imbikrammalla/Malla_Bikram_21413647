@@ -56,27 +56,32 @@ By refactoring the original code, these modules were optimized for readability a
 ## D. Modularity
 
 To run the production code, use the following commands:
+- `python3 main_modular.py` to run the first main_modular code.
+- `python3 secondary_modular.py` to run the second code.
 
 
 Different modularity concepts were applied in the code, such as:
 
-- [Modularity Concept 1]: [Explanation of how this concept was applied]
-- [Modularity Concept 2]: [Explanation of how this concept was applied]
-- [Modularity Concept 3]: [Explanation of how this concept was applied]
+- **Encapsulation**: The code is organized into separate modules, each encapsulating a specific functionality. This promotes modular design and allows for independent development and maintenance of different components.
+
+- **Abstraction**: The modules provide an abstraction layer that hides the internal implementation details. Users can interact with the modules using well-defined interfaces, without needing to understand the underlying complexities.
+
+- **Reusability**: The code promotes reusability by modularizing common functionalities. For example, the `calculate_average_temperature` module can be reused to calculate the average temperature for different cities.
 
 Review Checklist:
 
-1. [Checklist Item 1]
-2. [Checklist Item 2]
-3. [Checklist Item 3]
+1. **Code Clarity**: The code was reviewed to ensure clarity and readability. Variable names, function names, and comments were descriptive and followed appropriate naming conventions.
+2. **Code Structure**: The code structure was reviewed to ensure it followed modular design principles and was organized in a logical and coherent manner.
+3. **Error Handling**: The code was reviewed to ensure proper error handling techniques were implemented, such as exception handling and appropriate error messages.
 
 Results of the review using the checklist:
 
-- [Checklist Item 1]: [Result]
-- [Checklist Item 2]: [Result]
-- [Checklist Item 3]: [Result]
+- **Code Clarity**: Passed. The code was well-documented with clear and meaningful variable and function names.
+- **Code Structure**: Passed. The code followed a modular structure, with separate functions and modules for different tasks.
+- **Error Handling**: Passed. The code implemented proper error handling techniques, ensuring robustness and graceful handling of exceptions.
 
-Any identified issues were addressed by [Explanation of how the issues were addressed].
+Any identified issues were addressed by refactoring the code and making necessary improvements to meet the modularity requirements.
+
 
 ## E. Black-Box Test Cases
 
