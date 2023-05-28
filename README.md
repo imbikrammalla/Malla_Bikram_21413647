@@ -139,9 +139,34 @@ Any attempts made to improve the code and new results, if applicable: Since all 
 
 The version control system was used as follows:
 
-[Provide a log of the use of your version control system]
+- git 
+```
+commit 5cd17c74f90fb1153d8017f6816b8c1e0997ea4b (HEAD -> main, origin/main)
+Author: Bikram Malla <iambikramalla@gmail.com>
+Date:   Mon May 29 00:24:36 2023 +0545
 
-Relevant points or observations regarding version control: [Discussion of relevant points or observations]
+    updated white box testing section
+
+commit c217d92943d272bea45954e5f0962bc99daf7f9f
+Author: Bikram Malla <iambikramalla@gmail.com>
+Date:   Mon May 29 00:22:59 2023 +0545
+
+    updated black box testing section
+
+commit b4ab2ba9859d90b80d26111e143d80dd0b6beebf
+Author: Bikram Malla <iambikramalla@gmail.com>
+Date:   Mon May 29 00:22:23 2023 +0545
+
+    updated modularity section
+[Provide a log of the use of your version control system]```
+
+- git add .  add any changes or new files to stagging
+- git commit -m "Added test cases for white-box testing"  # commit changes
+- git push origin master  # push to version control 
+
+The commands `git add .`, `git commit`, and `git push` are used to stage, commit, and push changes to the remote repository, respectively. In this case, the changes made were related to adding test cases for white-box testing.
+
+Relevant points or observations regarding version control: Throughout the development process, the version control system (e.g., Git) was utilized to track and manage changes to the codebase. Commits were made at different stages, including the initial implementation, refactoring for modularity, and addition of test cases. This allowed for better collaboration, version tracking, and a backup of the codebase.
 
 ## I. Ethics
 
