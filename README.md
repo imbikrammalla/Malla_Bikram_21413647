@@ -8,8 +8,19 @@ Curtin Student ID: 21413647
 Practical Class (Date/Time/Venue):
 
 ## B. Introduction
+This assessment involved the development and testing of a software system focusing on weather information and temperature comparison. The objective was to design and implement modules that would allow users to retrieve weather data for a specific location and type of weather, as well as compare the temperature of a given city with its average temperature.
 
-Brief overview of the work done in the assessment.
+The assessment was divided into several parts, each addressing different aspects of software engineering. It began with creating module descriptions for the weather information and temperature comparison modules. These descriptions outlined the functionality and purpose of each module, providing a clear understanding of their roles within the software system.
+
+Following the module descriptions, the focus shifted to implementing modularity in the code. Modularity concepts, such as encapsulation and separation of concerns, were applied to ensure that the system was organized into cohesive and reusable modules. This approach promoted code maintainability and scalability.
+
+To ensure the reliability and correctness of the software system, black-box and white-box test cases were designed and executed. Black-box testing focused on validating the system's behavior based on external inputs and expected outputs. White-box testing delved into the internal structure of the code, verifying its logic and ensuring thorough coverage of different code paths.
+
+Version control played a crucial role in managing the development process. A version control system was used to track changes, collaborate with team members, and maintain a history of the codebase. This facilitated efficient teamwork and provided a safety net for code modifications.
+
+Ethical considerations were also taken into account throughout the assessment. The impact of the software system on users' privacy, data security, and potential biases was considered. Measures were taken to ensure data protection and fairness in the temperature comparison process.
+
+This report will delve into the details of each section, including the module descriptions, modularity implementation, test case design and execution, version control usage, and ethical considerations. Additionally, a reflective discussion will be provided to highlight areas of improvement and share personal insights gained from completing the assessment.
 
 ## C. Module Descriptions
 
