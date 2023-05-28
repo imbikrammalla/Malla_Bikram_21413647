@@ -89,13 +89,15 @@ The following test cases were designed for Part 4 of the assessment:
 
 | Test Case ID | Description | Input | Expected Output |
 |--------------|-------------|-------|-----------------|
-| 1            | [Description of Test Case 1] | [Input for Test Case 1] | [Expected Output for Test Case 1] |
-| 2            | [Description of Test Case 2] | [Input for Test Case 2] | [Expected Output for Test Case 2] |
-| 3            | [Description of Test Case 3] | [Input for Test Case 3] | [Expected Output for Test Case 3] |
+| 1            | Verify the calculation of average temperature | City: Perth | Expected Average Temperature: 23.4 |
+| 2            | Compare temperature above the average | City: Adelaide, Temperature: 30.5, Time: Morning | Expected Result: "The temperature is above the average temperature of Adelaide." |
+| 3            | Compare temperature below the average with a large difference | City: Perth, Temperature: 15.8, Time: Evening | Expected Result: "The temperature is below the average temperature of Perth. The difference is more than 5°C." |
+| 4            | Compare temperature below the average with a small difference | City: Adelaide, Temperature: 5.0, Time: Morning | Expected Result: "The temperature is below the average temperature of Adelaide. The difference is more than 5°C." |
 
-Rationale behind the chosen test design: [Explanation of the rationale behind the test design]
+Rationale behind the chosen test design: The test cases were designed to cover different scenarios and verify the correctness of the implemented functions. They include cases for calculating the average temperature, comparing temperatures above and below the average, and checking for large and small differences.
 
-Assumptions made during test design: [Assumptions, if any]
+Assumptions made during test design: The assumptions include the availability of temperature data for the specified cities and times, and the correct implementation of the average temperature calculation and comparison functions.
+
 
 ## F. White-Box Test Cases
 
