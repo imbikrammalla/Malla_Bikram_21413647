@@ -115,17 +115,25 @@ Assumptions made during test design: The assumptions include the availability of
 ## G. Test Implementation and Execution
 
 To run the test code, use the following commands:
+`python main_test_code.py` to run the test cases for first module
+`python main_test.py` to run the test cases for second module
 
 
-Results of test execution:
+Results of test execution of first module: 
 
-- [Test Case ID 1]: [Result]
-- [Test Case ID 2]: [Result]
-- [Test Case ID 3]: [Result]
+- Test Case ID 1: Passed
+- Test Case ID 2: Passed
+- Test Case ID 3: Passed
 
-Findings from Part 6 of the assessment: [Discussion of the findings]
+Results of test execution of first module: 
 
-Any attempts made to improve the code and new results, if applicable: [Explanation of any attempts to improve the code and the corresponding results]
+- Test Case ID 1: Passed
+- Test Case ID 2: Passed
+- Test Case ID 3: Passed
+
+Findings from Part 6 of the assessment: All test cases passed successfully, indicating that the code implementation is functioning correctly according to the specified requirements.
+
+Any attempts made to improve the code and new results, if applicable: Since all test cases passed, no specific attempts were made to improve the code in this case.
 
 ## H. Version Control
 
