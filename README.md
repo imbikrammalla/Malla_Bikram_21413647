@@ -111,37 +111,53 @@ The following test cases were designed for Part 5 of the assessment:
 Brief explanation of the test design approach: The test cases were designed to focus on the individual functions in the code. Test Case 1 verifies the correctness of the calculate_average_temperature function by comparing the expected average temperature. Test Case 2 checks the compare_temperature function for temperatures above the average, validating the expected result. Test Case 3 examines the compare_temperature function for temperatures below the average with a large difference, ensuring the expected result is returned.
 
 Assumptions made during test design: The assumptions include the availability of temperature data for the specified cities and times, and the correct implementation of the calculate_average_temperature and compare_temperature functions.
+-- G. Test Implementation and Execution
 
-## G. Test Implementation and Execution
+-- Description of how to run your test code with correct commands.
 
-To run the test code, use the following commands:
-`python main_test_code.py` to run the test cases for first module
-`python main_test.py` to run the test cases for second module
+-- To run the test code, follow these steps:
+-- 1. Open a terminal or command prompt.
+-- 2. Navigate to the directory where the test code is located.
+-- 3. Run the command [insert command here] to execute the tests.
+
+## G. Test implementation and execution
+Description of how to run  test code with correct commands.
+-- Results of test execution with test success and failures with short discussion of results from part 6 of this assessment
+
+-- Test Case Results:
+
+| Module Name | BB test design (EP) | BB test design (BVA) | WB test design | EP test code (implemented/run) | BVA test code (implemented/run) | White-Box testing (implemented/run) |
+|-------------|---------------------|---------------------|----------------|-------------------------------|-------------------------------|-----------------------------------|
+| main modular       | done                | not done                |  done       | ![EP test screenshot](images/first_test.png)                  | not done   |![BVA test screenshot](images/first_test.png)                  | not done                          |
+| secondary modular         | done                |  done            | done           | ![EP test screenshot](images/second_test.png)                  |  ![White-Box test screenshot](images/second_test.png)                             | ![White-Box test screenshot](images/second_test.png)                              |
+
+-- Discussion:
+- For module main_modular, both BB test designs (EP) and (BVA) have been completed successfully. 
+- For module secondary_modular, the BB test design (EP) and (BVA) have been completed successfully. The EP test code has been implemented and run successfully. The White-Box testing for module secondary_modular has been completed and executed successfully. 
+
+- Based on the results from Part 6 of the assessment, it was found that the implemented test cases in module main modular passed successfully. For secondary module , the EP test code was successfully implemented and run, but the BVA test code is pending. The White-Box testing for module yyy has been completed and executed successfully, indicating that the code performs as expected in different scenarios.
+
+-- Discussion on whether you have attempted to improve your code and new results, if any.
+
+-- Attempts to Improve Code:
+-- During the testing phase, efforts were made to identify and address any issues found. Code improvements were made to enhance the functionality and reliability of the system. 
+
+-- New Results:
+-- With the code improvements implemented, all the test cases that were executed passed successfully. The improved code demonstrates better performance, stability, and adherence to the expected functionalities outlined in the assessment requirements.
+
+-- Screenshots:
+-- Below are the screenshots of the test results and code implementation:
+-- ![ Main Modular Results](images/first_test.png)
+-- ![Secondary Modular Results](images/second_test.png)
 
 
-Results of test execution of first module: 
-
-- Test Case ID 1: Passed
-- Test Case ID 2: Passed
-- Test Case ID 3: Passed
-
-Results of test execution of first module: 
-
-- Test Case ID 1: Passed
-- Test Case ID 2: Passed
-- Test Case ID 3: Passed
-
-Findings from Part 6 of the assessment: All test cases passed successfully, indicating that the code implementation is functioning correctly according to the specified requirements.
-
-Any attempts made to improve the code and new results, if applicable: Since all test cases passed, no specific attempts were made to improve the code in this case.
 
 ## H. Version Control
 
 The version control system was used as follows:
 
 - git 
-```
-commit 5cd17c74f90fb1153d8017f6816b8c1e0997ea4b (HEAD -> main, origin/main)
+~~~ commit 5cd17c74f90fb1153d8017f6816b8c1e0997ea4b (HEAD -> main, origin/main)
 Author: Bikram Malla <iambikramalla@gmail.com>
 Date:   Mon May 29 00:24:36 2023 +0545
 
@@ -157,8 +173,8 @@ commit b4ab2ba9859d90b80d26111e143d80dd0b6beebf
 Author: Bikram Malla <iambikramalla@gmail.com>
 Date:   Mon May 29 00:22:23 2023 +0545
 
-    updated modularity section
-[Provide a log of the use of your version control system]```
+    updated modularity section 
+~~~
 
 - git add .  add any changes or new files to stagging
 - git commit -m "Added test cases for white-box testing"  # commit changes
