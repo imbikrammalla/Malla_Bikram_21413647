@@ -5,6 +5,15 @@ from main_modular import *
 
 # White-box testing class
 class WhiteBoxTestWeatherInformation(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        print("Initializing WhiteBoxTestWeatherInformation...")
+
+    @classmethod
+    def tearDownClass(cls):
+        print("Completing WhiteBoxTestWeatherInformation...")
+
+
     def test_get_month_weather_map(self):
         expected_result = {
             "January": "Summer",
@@ -50,6 +59,15 @@ class WhiteBoxTestWeatherInformation(unittest.TestCase):
 
 # Black-box testing class
 class BlackBoxTestWeatherInformation(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        print("Initializing BlackBoxTestWeatherInformation...")
+
+    @classmethod
+    def tearDownClass(cls):
+        print("Completing BlackBoxTestWeatherInformation...")
+
+
     def setUp(self):
         self.input_values = []
         self.output_values = []

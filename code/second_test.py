@@ -6,6 +6,14 @@ from secondary_modular import calculate_average_temperature, compare_temperature
 #White-box testing class
 
 class WhiteBoxTestTemperatureInformation(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        print("Initializing WhiteBoxTestWeatherInformation...")
+
+    @classmethod
+    def tearDownClass(cls):
+        print("Completing WhiteBoxTestWeatherInformation...")
     def setUp(self):
         self.print_values = [] # Initialize print_values as an empty list
 
@@ -45,6 +53,13 @@ class WhiteBoxTestTemperatureInformation(unittest.TestCase):
 #Black-box testing class
 
 class BlackBoxTestTemperatureInformation(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        print("Initializing WhiteBoxTestWeatherInformation...")
+
+    @classmethod
+    def tearDownClass(cls):
+        print("Completing WhiteBoxTestWeatherInformation...")
     def setUp(self):
         self.input_values = []
         self.print_values = []
