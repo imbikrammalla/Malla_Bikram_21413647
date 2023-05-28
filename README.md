@@ -2,10 +2,10 @@
 
 ## A. Cover Page/Identity Information
 
-Assessment Name: Introduction to Software Engineering
-Your Name: Bikram Malla
-Curtin Student ID: 21413647
-Practical Class (Date/Time/Venue):
+- Assessment Name: Introduction to Software Engineering
+- Your Name: Bikram Malla
+- Curtin Student ID: 21413647
+- Practical Class (Date/Time/Venue):
 
 ## B. Introduction
 This assessment involved the development and testing of a software system focusing on weather information and temperature comparison. The objective was to design and implement modules that would allow users to retrieve weather data for a specific location and type of weather, as well as compare the temperature of a given city with its average temperature.
@@ -25,18 +25,17 @@ This report will delve into the details of each section, including the module de
 ## C. Module Descriptions
 
 ### Original Module Descriptions
-
 The original module descriptions created for Part 2 of the assessment are as follows:
 
-1. Module Name: [Module 1 Name]
-   - Description: [Module 1 Description]
-   - Reason for Implementation: [Reason for choosing this module]
-   - Assumptions Made: [Assumptions, if any]
+1. Module Name: Main Modular
+        - Description: This module handles the retrieval of weather data for a specific location.
+        - Reason for Implementation: It is essential to fetch accurate weather information to provide relevant insights to the users.
+        - Assumptions Made: The weather data API will provide the required information in the expected format.
 
-2. Module Name: [Module 2 Name]
-   - Description: [Module 2 Description]
-   - Reason for Implementation: [Reason for choosing this module]
-   - Assumptions Made: [Assumptions, if any]
+2. Module Name: Secondary Modular
+        - Description: This module calculates the average temperature for a given city.
+        - Reason for Implementation: The average temperature is a crucial metric to compare against the current temperature and determine if it is above or below average.
+        - Assumptions Made: The city's temperature data is available and reliable for calculation purposes.
 
 ### Revised Module Descriptions (After Refactoring)
 
